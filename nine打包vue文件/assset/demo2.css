@@ -1,0 +1,13 @@
+body:after{
+	content: "群主牛逼啊";
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	width: 100px;
+	height: 100px;
+	background-color: #ff6400;
+}
+img{
+	width: 100px;
+	height: 100px;
+}

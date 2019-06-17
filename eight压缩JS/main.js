@@ -1,6 +1,5 @@
 import './assset/demo.less'
 require('./assset/demo2.css')
-
 var url = require('./assset/1.gif')
 document.write('123456')
 

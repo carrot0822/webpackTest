@@ -1,6 +1,7 @@
 import './assset/demo.less'
 require('./assset/demo2.css')
-
+import Vue from "vue"
+import App from './App.vue'
 var url = require('./assset/1.gif')
 document.write('123456')
 
@@ -14,3 +15,8 @@ setTimeout(()=>{
 	document
 	console.log('我觉得肯定成功了')
 },2000)
+
+new Vue({
+	el:"#app",
+	render: h => h(App)
+})
